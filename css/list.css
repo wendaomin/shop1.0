@@ -1,0 +1,53 @@
+/* 列表页样式 */
+.sk{
+    position: absolute;
+    left: 185px;
+    top: 42px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 0 15px;
+}
+/* 列表的nav :start */
+.sk_list{
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+    line-height: 47px;
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con{
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+/* 列表的nav :end */
+/* 列表主体部分 :start */
+.nav{
+    overflow: hidden;
+}
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 13px;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.sk_bd ul li :hover{
+    float: left;
+    border: 1px solid #b1191a ;
+}
+/* 列表主体部分 :end */

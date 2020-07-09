@@ -1,0 +1,94 @@
+/* main :start */
+.main{
+    width: 980px;
+    height: 470px;
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fucus{
+    float: left;
+    height: 470px;
+    width: 722px;
+}
+.newsflash{
+    float: right;
+    height: 470px;
+    width: 250px;
+}
+.main .fucus img{
+    width: 722px;
+    height: 470px;
+}
+.news{
+    height: 165px;
+}
+.lifesevice{
+    overflow: hidden;
+    height: 213px;
+}
+.bargins{
+    margin-top: 10px;
+}
+.bargins img{
+    width: 250px;
+    height: 87px;
+}
+.news_td{
+    padding: 0 15px;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.news_td h5{
+    float: left;
+    font-size: 14px;
+}
+.gengduo{
+    float: right;
+}
+.gengduo::after{
+    font-family: 'icomoon';
+    content: '\e920';
+    font-size: 14px;
+}
+.news_bd{
+    padding:5px 15px 0;
+}
+.news_bd ul li{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+} 
+.news{
+    border: 1px solid #e4e4e4;
+}
+.lifesevice{
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+.lifesevice ul{
+    width: 252px;
+}
+.lifesevice ul li{
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom:  1px solid #e4e4e4;
+}
+
+.lifesevice ul li i{
+    display: inline-block;
+    width: 21px;
+    height: 26px;
+    background:url(../images/icons.png) no-repeat -17px -14px;
+    margin: 12px 22px 0;
+}
+.lifesevice p{
+    text-align: center;
+}
+/* main :end */
